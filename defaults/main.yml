@@ -1,2 +1,4 @@
 ---
 # defaults file for wiredobjects.mariadb
+
+mariadb_pkginstall_server: true

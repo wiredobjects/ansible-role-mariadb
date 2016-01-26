@@ -1,2 +1,4 @@
 ---
 # tasks file for wiredobjects.mariadb
+
+- include: install.yml

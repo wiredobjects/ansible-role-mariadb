@@ -1,0 +1,5 @@
+---
+
+- name: Pkg install mariadb-server
+  yum: name=mariadb-server state=latest
+  when: mariadb_pkginstall_server

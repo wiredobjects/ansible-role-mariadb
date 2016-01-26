@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: refnode
+  description: Ansible role for managing a MariaDB sql server
+  company: wiredobjects
+  license: Apache
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  categories:
+  - database:sql
+dependencies: []

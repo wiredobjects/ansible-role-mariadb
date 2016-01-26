@@ -1,0 +1,6 @@
+---
+# tasks file for wiredobjects.mariadb
+
+- include: install.yml
+- include: config.yml
+- include: service.yml

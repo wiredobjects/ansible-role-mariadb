@@ -1,0 +1,10 @@
+---
+
+- name: Template render mariadb server main config file
+  template:
+    src: "{{ mariadb_conf_tmpl_server }}"
+    dest: "{{ mariadb_conf_server_file }}"
+    owner: root
+    group: root
+    mode: 0644
+  notify: service restart mariadb

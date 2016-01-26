@@ -3,3 +3,6 @@
 
 mariadb_pkginstall_server: true
 mariadb_service_manage: true
+
+mariadb_conf_tmpl_server: server.cnf.j2
+mariadb_conf_server_file: /etc/my.cnf.d/server.cnf
